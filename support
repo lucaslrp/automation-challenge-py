@@ -1,0 +1,14 @@
+# Hotel Name: @HotelName               //h4[@class='mt-5']                                OK
+# Invoice  Date: @InvoiceDate          //span[text()='Invoice Date:']                     OK
+# Due Date: @DueDate                   //span[text()='Due Date:']                         OK
+# Invoice Number: @InvoiceNumber       //h6[@class='mt-2']                                OK
+# Booking Code: @BookingCode           //td[contains(text(), 'Booking Code')]             OK
+# Customer Details: @CustomerDetails   //section/div[@class='container']/div              OK
+# Room: @Room                          //td[contains(text(), 'Room')]                     OK
+# Check In: @CheckIn                   //td[contains(text(), 'Check-In')]                 OK
+# Check Out: @CheckOut                 //td[contains(text(), 'Check-Out')]                OK
+# Total Stay Count: @TotalStayCount    //td[contains(text(), 'Total Stay Count')]         OK
+# Total Stay Amount: @TotalStayAmount  //td[contains(text(), 'Total Stay Amount')]        OK
+# Deposit Now: @DepositNow             /html/body/section/div/table[2]/tbody/tr/td[1]     
+# Tax & VAT: @Tax&VAT                  /html/body/section/div/table[2]/tbody/tr/td[2]     
+# Total Amount: @TotalAmount           /html/body/section/div/table[2]/tbody/tr/td[3]     
